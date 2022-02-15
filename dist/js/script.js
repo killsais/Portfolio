@@ -6,5 +6,12 @@ hamburger.addEventListener('click', () => {
 });
 
 closeElem.addEventListener('click', () => {
-    menu.classList.removegi('active');
+    menu.classList.remove('active');
+});
+
+const number = document.querySelectorAll('.skills__scale-number'),
+    lines = document.querySelectorAll('.skills__scale-scale span');
+
+number.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
 });

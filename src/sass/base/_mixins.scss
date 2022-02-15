@@ -6,8 +6,23 @@
         height: 36px;
         border-radius: 100%;
         background: $main-color;
-        top: -35%;
+        top: -25%;
         left: 0;
         z-index: -1;
+    }
+}
+
+@mixin before_minicirle {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background: $main-color;
+        z-index: -1;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -25px;
     }
 }

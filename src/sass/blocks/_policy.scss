@@ -1,0 +1,21 @@
+.policy {
+    padding: 50px;
+    &__title {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 40px;
+    }
+    &__text {
+        border: solid 2px #EEEEEE;
+        padding: 20px;
+        div {
+            padding-bottom: 20px;
+        }
+    }
+    h3 {
+        padding: 15px 0 15px 0;
+    }
+    p {
+        padding-left: 30px;
+    }
+}
